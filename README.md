@@ -2,7 +2,7 @@ Getting-and-Cleaning-Data
 =========================
 The "Data Science" Specialization
 
-##  Course Instructions:
+###  Course Instructions:
 1.  You should create one R script called run_analysis.R that does the following. 
 2.  Merges the training and the test sets to create one data set.
 3.  Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -11,7 +11,7 @@ The "Data Science" Specialization
 6.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 
-### Documentation for run_analysis.R
+## Documentation for run_analysis.R
 
 ### Initial Housekeeping
 1.  Data Labels are read into R, scrubbed according to tidy data standards
