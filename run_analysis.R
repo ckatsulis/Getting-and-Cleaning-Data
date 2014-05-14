@@ -37,7 +37,7 @@ X = rbind(X_train,X_test)
 ## Part One
 X_ave_std = X[,grep("mean|std",features)]
 write.table(X_ave_std, "part1_output.txt", sep="\t")
-write.table(head(X_ave_std,n=1000), "part1_output_head.txt", sep="\t")
+write.table(head(X_ave_std,n=100), "part1_output_head.txt", sep="\t")
 
 ## Part Two
 Y = split(X[,1:561],X$subject)
