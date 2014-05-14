@@ -40,7 +40,6 @@ write.table(X_ave_std, "part1_output.txt", sep="\t")
 write.table(head(X_ave_std,n=1000), "part1_output_head.txt", sep="\t")
 
 ## Part Two
-require(plyr)
 Y = split(X[,1:561],X$subject)
 
 X_mean_calc = data.frame()
