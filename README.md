@@ -22,10 +22,58 @@ The "Data Science" Specialization
 ##### Part 1:
 1.  Grep the features vector for "mean" or "std" text
 2.  Supply the modified features vector to the columns requirement within the merged data set.
-3.  Output this data.frame to a csv file
+3.  Output this data frame to a csv file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.csv)
-
-
-
+File details:
+size: 10.1
+rows: 10299
+cols: 86
+col.names:
+ [1] "tbodyaccmeanx"                     "tbodyaccmeany"                    
+ [3] "tbodyaccmeanz"                     "tbodyaccstdx"                     
+ [5] "tbodyaccstdy"                      "tbodyaccstdz"                     
+ [7] "tgravityaccmeanx"                  "tgravityaccmeany"                 
+ [9] "tgravityaccmeanz"                  "tgravityaccstdx"                  
+[11] "tgravityaccstdy"                   "tgravityaccstdz"                  
+[13] "tbodyaccjerkmeanx"                 "tbodyaccjerkmeany"                
+[15] "tbodyaccjerkmeanz"                 "tbodyaccjerkstdx"                 
+[17] "tbodyaccjerkstdy"                  "tbodyaccjerkstdz"                 
+[19] "tbodygyromeanx"                    "tbodygyromeany"                   
+[21] "tbodygyromeanz"                    "tbodygyrostdx"                    
+[23] "tbodygyrostdy"                     "tbodygyrostdz"                    
+[25] "tbodygyrojerkmeanx"                "tbodygyrojerkmeany"               
+[27] "tbodygyrojerkmeanz"                "tbodygyrojerkstdx"                
+[29] "tbodygyrojerkstdy"                 "tbodygyrojerkstdz"                
+[31] "tbodyaccmagmean"                   "tbodyaccmagstd"                   
+[33] "tgravityaccmagmean"                "tgravityaccmagstd"                
+[35] "tbodyaccjerkmagmean"               "tbodyaccjerkmagstd"               
+[37] "tbodygyromagmean"                  "tbodygyromagstd"                  
+[39] "tbodygyrojerkmagmean"              "tbodygyrojerkmagstd"              
+[41] "fbodyaccmeanx"                     "fbodyaccmeany"                    
+[43] "fbodyaccmeanz"                     "fbodyaccstdx"                     
+[45] "fbodyaccstdy"                      "fbodyaccstdz"                     
+[47] "fbodyaccmeanfreqx"                 "fbodyaccmeanfreqy"                
+[49] "fbodyaccmeanfreqz"                 "fbodyaccjerkmeanx"                
+[51] "fbodyaccjerkmeany"                 "fbodyaccjerkmeanz"                
+[53] "fbodyaccjerkstdx"                  "fbodyaccjerkstdy"                 
+[55] "fbodyaccjerkstdz"                  "fbodyaccjerkmeanfreqx"            
+[57] "fbodyaccjerkmeanfreqy"             "fbodyaccjerkmeanfreqz"            
+[59] "fbodygyromeanx"                    "fbodygyromeany"                   
+[61] "fbodygyromeanz"                    "fbodygyrostdx"                    
+[63] "fbodygyrostdy"                     "fbodygyrostdz"                    
+[65] "fbodygyromeanfreqx"                "fbodygyromeanfreqy"               
+[67] "fbodygyromeanfreqz"                "fbodyaccmagmean"                  
+[69] "fbodyaccmagstd"                    "fbodyaccmagmeanfreq"              
+[71] "fbodybodyaccjerkmagmean"           "fbodybodyaccjerkmagstd"           
+[73] "fbodybodyaccjerkmagmeanfreq"       "fbodybodygyromagmean"             
+[75] "fbodybodygyromagstd"               "fbodybodygyromagmeanfreq"         
+[77] "fbodybodygyrojerkmagmean"          "fbodybodygyrojerkmagstd"          
+[79] "fbodybodygyrojerkmagmeanfreq"      "angletbodyaccmeangravity"         
+[81] "angletbodyaccjerkmeangravitymean"  "angletbodygyromeangravitymean"    
+[83] "angletbodygyrojerkmeangravitymean" "anglexgravitymean"                
+[85] "angleygravitymean"                 "anglezgravitymean"
 
 ##### Part 2:
+1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
+2.  Output this calculated and summerized data frame to a csv file
+3.  
