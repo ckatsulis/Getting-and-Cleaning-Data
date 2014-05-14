@@ -25,7 +25,7 @@ The "Data Science" Specialization
 3.  Output this data frame to a csv file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.csv)
 
-###### File details:
+##### File details:
 * size: 10.1
 * rows: 10299
 * cols: 86
