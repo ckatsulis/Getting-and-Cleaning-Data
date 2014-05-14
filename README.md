@@ -27,7 +27,7 @@ The "Data Science" Specialization
 3.  Output this data frame to a tab seperated .txt file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.txt)
 
-##### part1_output.txt File details:
+##### File details of part1_output.txt :
 * size: 10.1 MB
 * rows: 10299
 * cols: 86
@@ -39,7 +39,7 @@ The "Data Science" Specialization
 2.  Output this data frame to a tab seperated .txt file
 3.  Included in github is the output file. (part2_output.txt)
 
-##### part2_output.txt File details:
+##### File details of part2_output.txt :
 * size: 321.9 KB
 * rows: 30
 * cols: 561
