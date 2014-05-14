@@ -1,19 +1,20 @@
 #  run_analysis.R
 
+
 # Data Labels
 activity_labels = read.table("UCI HAR Dataset/activity_labels.txt")
 activity_labels = as.vector(activity_labels$V2)
-activity_labels = gsub("\\(|\\)|-","",activity_labels)
+activity_labels = tolower(gsub("\\(|\\)|-|\\,","",activity_labels))
 
 features = read.table("UCI HAR Dataset/features.txt")
 features = as.vector(features$V2)
-features = gsub("\\(|\\)|-","",features)
+features = tolower(gsub("\\(|\\)|-|\\,","",features))
 
 # Subject Vectors
 subject_train = read.table("UCI HAR Dataset/train/subject_train.txt")
-subject_train = as.vector(subject_train)
+subject_train = as.vector(subject_train$V1)
 subject_test = read.table("UCI HAR Dataset/test/subject_test.txt")
-subject_test = as.vector(subject_test)
+subject_test = as.vector(subject_test$V1)
 
 # Data Sets
 X_train = read.table("UCI HAR Dataset/train/X_train.txt", col.names = features)
@@ -21,5 +22,23 @@ Y_train = read.table("UCI HAR Dataset/train/Y_train.txt")
 X_test = read.table("UCI HAR Dataset/test/X_test.txt", col.names = features)
 Y_test = read.table("UCI HAR Dataset/test/Y_test.txt")
 
-X = merge(X_train,X_test, all=TRUE)
-Y = merge(Y_train,Y_test, all=TRUE)
+X_train$subject = subject_train
+X_train$Y = Y_train$V1
+rm(Y_train)
+rm(subject_train)
+
+X_test$subject = subject_test
+X_test$Y = Y_test$V1
+rm(Y_test)
+rm(subject_test)
+
+X = rbind(X_train,X_test)
+
+
+## Part One
+X_ave_std = X[,grep("mean|std",features)]
+write.table(X_ave_std, "part1_output.csv", sep=",")
+write.table(head(X_ave_std,n=1000), "part1_output_head.csv", sep=",")
+
+## Part Two
+lapply(split(X,))
