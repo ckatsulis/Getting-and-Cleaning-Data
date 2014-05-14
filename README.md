@@ -26,10 +26,10 @@ The "Data Science" Specialization
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.csv)
 
 ###### File details:
-*size: 10.1
-*rows: 10299
-*cols: 86
-*sample col name: tbodyaccmeanx, tbodyaccstdx, etc
+* size: 10.1
+* rows: 10299
+* cols: 86
+* sample col name: e.g. tbodyaccmeanx, tbodyaccstdx, etc.
 
 ##### Part 2:
 1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
