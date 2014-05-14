@@ -26,7 +26,7 @@ The "Data Science" Specialization
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.txt)
 
 ##### File details:
-* size: 10.1
+* size: 10.1 MB
 * rows: 10299
 * cols: 86
 * sample col name: e.g. tbodyaccmeanx, tbodyaccstdx, etc.
@@ -35,4 +35,10 @@ The "Data Science" Specialization
 1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
 2.  Output this calculated and summerized data frame to a csv file
 3.  Included in github is the head of this output including 1000 rows of data. (part2_output.head.txt)
+
+##### File details:
+* size: 321.9 KB
+* rows: 30
+* cols: 561
+* sample col name: e.g. tbodyaccmeanx, tbodyaccmeany, etc.
 
