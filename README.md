@@ -24,6 +24,7 @@ The "Data Science" Specialization
 2.  Supply the modified features vector to the columns requirement within the merged data set.
 3.  Output this data frame to a csv file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.csv)
+
 File details:
 size: 10.1
 rows: 10299
