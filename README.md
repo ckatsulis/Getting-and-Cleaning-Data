@@ -27,18 +27,19 @@ The "Data Science" Specialization
 3.  Output this data frame to a tab seperated .txt file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.txt)
 
-##### File details:
+##### part1_output.txt File details:
 * size: 10.1 MB
 * rows: 10299
 * cols: 86
 * sample col name: e.g. tbodyaccmeanx, tbodyaccstdx, etc.
+* only part1_output_head.txt is included due to size limitations (100 lines)
 
 #### Part 2:
 1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
 2.  Output this data frame to a tab seperated .txt file
-3.  Included in github is the head of this output including 1000 rows of data. (part2_output.head.txt)
+3.  Included in github is the output file. (part2_output.txt)
 
-##### File details:
+##### part2_output.txt File details:
 * size: 321.9 KB
 * rows: 30
 * cols: 561
