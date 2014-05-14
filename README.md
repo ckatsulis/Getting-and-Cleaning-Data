@@ -29,49 +29,92 @@ size: 10.1
 rows: 10299
 cols: 86
 col.names:
- [1] "tbodyaccmeanx"                     "tbodyaccmeany"                    
- [3] "tbodyaccmeanz"                     "tbodyaccstdx"                     
- [5] "tbodyaccstdy"                      "tbodyaccstdz"                     
- [7] "tgravityaccmeanx"                  "tgravityaccmeany"                 
- [9] "tgravityaccmeanz"                  "tgravityaccstdx"                  
-[11] "tgravityaccstdy"                   "tgravityaccstdz"                  
-[13] "tbodyaccjerkmeanx"                 "tbodyaccjerkmeany"                
-[15] "tbodyaccjerkmeanz"                 "tbodyaccjerkstdx"                 
-[17] "tbodyaccjerkstdy"                  "tbodyaccjerkstdz"                 
-[19] "tbodygyromeanx"                    "tbodygyromeany"                   
-[21] "tbodygyromeanz"                    "tbodygyrostdx"                    
-[23] "tbodygyrostdy"                     "tbodygyrostdz"                    
-[25] "tbodygyrojerkmeanx"                "tbodygyrojerkmeany"               
-[27] "tbodygyrojerkmeanz"                "tbodygyrojerkstdx"                
-[29] "tbodygyrojerkstdy"                 "tbodygyrojerkstdz"                
-[31] "tbodyaccmagmean"                   "tbodyaccmagstd"                   
-[33] "tgravityaccmagmean"                "tgravityaccmagstd"                
-[35] "tbodyaccjerkmagmean"               "tbodyaccjerkmagstd"               
-[37] "tbodygyromagmean"                  "tbodygyromagstd"                  
-[39] "tbodygyrojerkmagmean"              "tbodygyrojerkmagstd"              
-[41] "fbodyaccmeanx"                     "fbodyaccmeany"                    
-[43] "fbodyaccmeanz"                     "fbodyaccstdx"                     
-[45] "fbodyaccstdy"                      "fbodyaccstdz"                     
-[47] "fbodyaccmeanfreqx"                 "fbodyaccmeanfreqy"                
-[49] "fbodyaccmeanfreqz"                 "fbodyaccjerkmeanx"                
-[51] "fbodyaccjerkmeany"                 "fbodyaccjerkmeanz"                
-[53] "fbodyaccjerkstdx"                  "fbodyaccjerkstdy"                 
-[55] "fbodyaccjerkstdz"                  "fbodyaccjerkmeanfreqx"            
-[57] "fbodyaccjerkmeanfreqy"             "fbodyaccjerkmeanfreqz"            
-[59] "fbodygyromeanx"                    "fbodygyromeany"                   
-[61] "fbodygyromeanz"                    "fbodygyrostdx"                    
-[63] "fbodygyrostdy"                     "fbodygyrostdz"                    
-[65] "fbodygyromeanfreqx"                "fbodygyromeanfreqy"               
-[67] "fbodygyromeanfreqz"                "fbodyaccmagmean"                  
-[69] "fbodyaccmagstd"                    "fbodyaccmagmeanfreq"              
-[71] "fbodybodyaccjerkmagmean"           "fbodybodyaccjerkmagstd"           
-[73] "fbodybodyaccjerkmagmeanfreq"       "fbodybodygyromagmean"             
-[75] "fbodybodygyromagstd"               "fbodybodygyromagmeanfreq"         
-[77] "fbodybodygyrojerkmagmean"          "fbodybodygyrojerkmagstd"          
-[79] "fbodybodygyrojerkmagmeanfreq"      "angletbodyaccmeangravity"         
-[81] "angletbodyaccjerkmeangravitymean"  "angletbodygyromeangravitymean"    
-[83] "angletbodygyrojerkmeangravitymean" "anglexgravitymean"                
-[85] "angleygravitymean"                 "anglezgravitymean"
+1	tbodyaccmeanx
+2	tbodyaccmeany
+3	tbodyaccmeanz
+4	tbodyaccstdx
+5	tbodyaccstdy
+6	tbodyaccstdz
+7	tgravityaccmeanx
+8	tgravityaccmeany
+9	tgravityaccmeanz
+10	tgravityaccstdx
+11	tgravityaccstdy
+12	tgravityaccstdz
+13	tbodyaccjerkmeanx
+14	tbodyaccjerkmeany
+15	tbodyaccjerkmeanz
+16	tbodyaccjerkstdx
+17	tbodyaccjerkstdy
+18	tbodyaccjerkstdz
+19	tbodygyromeanx
+20	tbodygyromeany
+21	tbodygyromeanz
+22	tbodygyrostdx
+23	tbodygyrostdy
+24	tbodygyrostdz
+25	tbodygyrojerkmeanx
+26	tbodygyrojerkmeany
+27	tbodygyrojerkmeanz
+28	tbodygyrojerkstdx
+29	tbodygyrojerkstdy
+30	tbodygyrojerkstdz
+31	tbodyaccmagmean
+32	tbodyaccmagstd
+33	tgravityaccmagmean
+34	tgravityaccmagstd
+35	tbodyaccjerkmagmean
+36	tbodyaccjerkmagstd
+37	tbodygyromagmean
+38	tbodygyromagstd
+39	tbodygyrojerkmagmean
+40	tbodygyrojerkmagstd
+41	fbodyaccmeanx
+42	fbodyaccmeany
+43	fbodyaccmeanz
+44	fbodyaccstdx
+45	fbodyaccstdy
+46	fbodyaccstdz
+47	fbodyaccmeanfreqx
+48	fbodyaccmeanfreqy
+49	fbodyaccmeanfreqz
+50	fbodyaccjerkmeanx
+51	fbodyaccjerkmeany
+52	fbodyaccjerkmeanz
+53	fbodyaccjerkstdx
+54	fbodyaccjerkstdy
+55	fbodyaccjerkstdz
+56	fbodyaccjerkmeanfreqx
+57	fbodyaccjerkmeanfreqy
+58	fbodyaccjerkmeanfreqz
+59	fbodygyromeanx
+60	fbodygyromeany
+61	fbodygyromeanz
+62	fbodygyrostdx
+63	fbodygyrostdy
+64	fbodygyrostdz
+65	fbodygyromeanfreqx
+66	fbodygyromeanfreqy
+67	fbodygyromeanfreqz
+68	fbodyaccmagmean
+69	fbodyaccmagstd
+70	fbodyaccmagmeanfreq
+71	fbodybodyaccjerkmagmean
+72	fbodybodyaccjerkmagstd
+73	fbodybodyaccjerkmagmeanfreq
+74	fbodybodygyromagmean
+75	fbodybodygyromagstd
+76	fbodybodygyromagmeanfreq
+77	fbodybodygyrojerkmagmean
+78	fbodybodygyrojerkmagstd
+79	fbodybodygyrojerkmagmeanfreq
+80	angletbodyaccmeangravity
+81	angletbodyaccjerkmeangravitymean
+82	angletbodygyromeangravitymean
+83	angletbodygyrojerkmeangravitymean
+84	anglexgravitymean
+85	angleygravitymean
+86	anglezgravitymean
 
 ##### Part 2:
 1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
