@@ -36,8 +36,18 @@ X = rbind(X_train,X_test)
 
 ## Part One
 X_ave_std = X[,grep("mean|std",features)]
-write.table(X_ave_std, "part1_output.csv", sep=",")
-write.table(head(X_ave_std,n=1000), "part1_output_head.csv", sep=",")
+write.table(X_ave_std, "part1_output.txt", sep="\t")
+write.table(head(X_ave_std,n=1000), "part1_output_head.txt", sep="\t")
 
 ## Part Two
-lapply(split(X,))
+require(plyr)
+Y = split(X[,1:561],X$subject)
+
+X_mean_calc = data.frame()
+for (i in 1:length(Y)){
+  X_mean_calc = rbind(X_mean_calc,lapply(Y[[i]],mean))
+}
+
+row.names(X_mean_calc) = 1:30
+
+write.table(X_mean_calc, "part2_output.txt", sep="\t")
