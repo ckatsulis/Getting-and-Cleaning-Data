@@ -24,7 +24,7 @@ The "Data Science" Specialization
 #### Part 1:
 1.  Grep the features vector for "mean" or "std" text
 2.  Supply the modified features vector to the columns requirement within the merged data set.
-3.  Output this data frame to a csv file
+3.  Output this data frame to a tab seperated .txt file
 4.  Included in github is the head of this output including 1000 rows of data. (part1_output.head.txt)
 
 ##### File details:
@@ -35,7 +35,7 @@ The "Data Science" Specialization
 
 #### Part 2:
 1.  Using the originall merged data frame, split based on subject number and then calculate the average across each variable.
-2.  Output this calculated and summerized data frame to a csv file
+2.  Output this data frame to a tab seperated .txt file
 3.  Included in github is the head of this output including 1000 rows of data. (part2_output.head.txt)
 
 ##### File details:
